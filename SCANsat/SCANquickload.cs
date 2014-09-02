@@ -38,7 +38,7 @@ public class Debug_AutoLoadPersistentSaveOnStartup : MonoBehaviour {
 
 				for (vId = 0; vId < allVessels.Count; vId++) {
 					switch (allVessels [vId].vesselType) {
-						case VesselType.SpaceObject: 	continue;  // asteroids
+						//case VesselType.SpaceObject: 	continue;  // asteroids
 						case VesselType.Unknown: 	continue;  // asteroids in facepaint
 						default:					suitableVessel = vId;
 												break; // this one will do

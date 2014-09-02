@@ -69,13 +69,13 @@
   </ProjectExtensions>
   <ItemGroup>
     <Reference Include="OpenResourceSystem_1_1_0">
-      <HintPath>..\..\..\GameData\OpenResourceSystem\Plugins\OpenResourceSystem.dll</HintPath>
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20140831\OpenResourceSystem_1_1_0.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20131217\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\KSP_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20140831\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\KSP_Data\Managed\System.dll</HintPath>

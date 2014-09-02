@@ -1,0 +1,2 @@
+/Volumes/NAW/Google Drive/Scripts/GitHub/cloned/GameData/SCANsat/SCANsat.dll
+/Volumes/NAW/Google Drive/Scripts/GitHub/cloned/SCANsat/SCANsat/obj/Release/SCANsat.dll

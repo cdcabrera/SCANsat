@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCANsat/SCANquickload.cs">
+    <Files>
+      <File FileName="SCANsat/SCANui.cs" Line="1090" Column="8" />
+      <File FileName="SCANsat/SCANutil.cs" Line="698" Column="15" />
+      <File FileName="SCANsat/SCANquickload.cs" Line="36" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

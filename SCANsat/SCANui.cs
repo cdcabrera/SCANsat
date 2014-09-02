@@ -77,33 +77,40 @@ namespace SCANsat
 			Lander = 23,
 			Flag = 24,
 		}
+		//private static object GetPropValue(object src, string propName)
+		//{
+		 //    return src.GetType().GetProperty(propName).GetValue(src, null);
+		//}
 		public static OrbitIcon orbitIconForVesselType ( VesselType type ) {
-			switch (type) {
-				case VesselType.Base:
-					return OrbitIcon.Base;
-				case VesselType.Debris:
-					return OrbitIcon.Debris;
-				case VesselType.EVA:
-					return OrbitIcon.EVA;
-				case VesselType.Flag:
-					return OrbitIcon.Flag;
-				case VesselType.Lander:
-					return OrbitIcon.Lander;
-				case VesselType.Probe:
-					return OrbitIcon.Probe;
-				case VesselType.Rover:
-					return OrbitIcon.Rover;
-				case VesselType.Ship:
-					return OrbitIcon.Ship;
-				case VesselType.Station:
-					return OrbitIcon.Station;
-				case VesselType.SpaceObject:
-					return OrbitIcon.SpaceObject;
-				case VesselType.Unknown:
-					return OrbitIcon.Mystery;
-				default:
-					return OrbitIcon.Mystery;
-			}
+
+			
+				switch (type) {
+					case VesselType.Base:
+						return OrbitIcon.Base;
+					case VesselType.Debris:
+						return OrbitIcon.Debris;
+					case VesselType.EVA:
+						return OrbitIcon.EVA;
+					case VesselType.Flag:
+						return OrbitIcon.Flag;
+					case VesselType.Lander:
+						return OrbitIcon.Lander;
+					case VesselType.Probe:
+						return OrbitIcon.Probe;
+					case VesselType.Rover:
+						return OrbitIcon.Rover;
+					case VesselType.Ship:
+						return OrbitIcon.Ship;
+					case VesselType.Station:
+						return OrbitIcon.Station;
+					//case VesselType.SpaceObject:
+						//return OrbitIcon.SpaceObject;
+					case VesselType.Unknown:
+						return OrbitIcon.Mystery;
+					default:
+						return OrbitIcon.Mystery;
+				}
+
 		}
 		public static void drawOrbitIcon ( int x , int y , OrbitIcon icon , Color col , int width , bool outline ) {
 			pos_icon.x = x - width / 2;
@@ -1078,9 +1085,9 @@ namespace SCANsat
 					if (v.vesselType == VesselType.Flag && SCANcontroller.controller.map_flags) {
 						drawVesselLabel (maprect , map , 0 , v);
 					}
-					if (v.vesselType == VesselType.SpaceObject && SCANcontroller.controller.map_asteroids) {
-						drawVesselLabel (maprect , map , 0 , v);
-					}
+					//if (v.vesselType == VesselType.SpaceObject && SCANcontroller.controller.map_asteroids) {
+					//	drawVesselLabel (maprect , map , 0 , v);
+					//}
 				}
 			}
 			if (SCANcontroller.controller.map_markers) {

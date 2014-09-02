@@ -32,20 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Kethane">
-      <HintPath>..\..\..\GameData\Kethane\Plugins\Kethane.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20131217\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\KSP_Data\Managed\System.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\KSP_Data\Managed\UnityEngine.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20140831\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="MMI_Kethane">
+      <HintPath>..\..\..\..\_Scripts Shared\CSharp\MonoDevelop\Assemblies\Kerbal Space Program\20140831\MMI_Kethane.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
